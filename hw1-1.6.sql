@@ -1,3 +1,6 @@
+/* Question: Write a query that returns the customerID 
+for customers that are Blues listeners. 
+The answer should not contain duplicates. */
 SELECT DISTINCT c.CustomerId 
 FROM customers c 
 JOIN invoices i ON i.CustomerId=c.CustomerId 
